@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boomer</string>
+    <string name="tag_line">Making Every Chat Memorable.</string>
+    <string name="user_register_hint">Register\nInto Your Account.</string>
+    <string name="enter_email">Email</string>
+    <string name="email_hint">youremail@gmail.com</string>
+    <string name="enter_password">Password</string>
+    <string name="password_hint">******</string>
+    <string name="sub_tag_line">Simple, Secure and Most Elegant app which made for couples, feel free to use the app.</string>
+    <string name="get_started">Get Started</string>
+    <string name="continue_with_google">Continue With Google</string>
+</resources>

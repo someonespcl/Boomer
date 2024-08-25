@@ -1,0 +1,65 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Boomer/app/src/main/java/com/boomer/activities/SignUpWithEmailActivity.java",
+      "selection": {
+        "end": {
+          "column": 2,
+          "index": 2561,
+          "line": 64
+        },
+        "start": {
+          "column": 2,
+          "index": 2561,
+          "line": 64
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Boomer/app/src/main/res/layout/activity_main_screen.xml",
+      "selection": {
+        "end": {
+          "column": 37,
+          "index": 805,
+          "line": 18
+        },
+        "start": {
+          "column": 37,
+          "index": 805,
+          "line": 18
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Boomer/app/src/main/res/drawable/google.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Boomer/app/src/main/res/layout/activity_welcome.xml",
+      "selection": {
+        "end": {
+          "column": 34,
+          "index": 885,
+          "line": 20
+        },
+        "start": {
+          "column": 34,
+          "index": 885,
+          "line": 20
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Boomer/app/src/main/res/layout/activity_welcome.xml"
+}

@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.boomer'
+    compileSdk 34
+    
+    defaultConfig {
+        applicationId "com.boomer"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        
+        vectorDrawables { 
+            useSupportLibrary true
+        }
+    }
+    
+    signingConfigs {
+        release {
+            storeFile file("boomer-key.jks")
+            storePassword "boomerlilly"
+            keyAlias "boomer"
+            keyPassword "boomerlilly"
+        }
+        
+        debug {
+            storeFile file("boomer-key.jks")
+            storePassword "boomerlilly"
+            keyAlias "boomer"
+            keyPassword "boomerlilly"
+        }
+    }
+
+    
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+        
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding true
+        
+    }
+    
+}
+
+dependencies {
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation platform("com.google.firebase:firebase-bom:33.1.2")
+    implementation("com.daimajia.androidanimations:library:2.4@aar")
+    implementation("com.airbnb.android:lottie:6.5.0")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.github.ibrahimsn98:SmoothBottomBar:1.7.9")
+}

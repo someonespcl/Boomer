@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "306808711344",
+    "project_id": "boomer-dade1",
+    "storage_bucket": "boomer-dade1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306808711344:android:ffa16a976ca2d7ed3c3375",
+        "android_client_info": {
+          "package_name": "com.boomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306808711344-baccmg3qel79g2ql27itioisgp7o8pfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boomer",
+            "certificate_hash": "d7ae592303d3acd912411c06f821afaee8dc26db"
+          }
+        },
+        {
+          "client_id": "306808711344-b8ukb8b5a7nsu7fnufqfcnr2vhauhhdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARztHN7FmX-MkFJ1IQVWI0_Shh4A5nWqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306808711344-b8ukb8b5a7nsu7fnufqfcnr2vhauhhdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:scrollbars="none"
+     android:animateLayoutChanges="true"
+     android:padding="24dp"
+     android:clipChildren="false"
+     android:clipToPadding="false"
+     android:overScrollMode="never">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textAppearance="?attr/textAppearanceDisplayMedium"
+             app:layout_constraintTop_toTopOf="parent"
+             android:includeFontPadding="false"
+             app:layout_constraintStart_toStartOf="parent"
+             android:fontFamily="@font/poppins_semibold"
+             android:textColor="@android:color/white"
+             android:layout_marginTop="24dp"
+             android:id="@+id/app_name"
+             android:text="@string/app_name" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:includeFontPadding="false"
+             app:layout_constraintStart_toStartOf="@id/app_name"
+             android:fontFamily="@font/poppins_medium"
+             android:textColor="#ffc100"
+             app:layout_constraintTop_toBottomOf="@id/app_name"
+             android:id="@+id/tag_line"
+             android:text="@string/tag_line" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textAppearance="?attr/textAppearanceTitleLarge"
+             android:includeFontPadding="false"
+             app:layout_constraintStart_toStartOf="@id/app_name"
+             android:fontFamily="@font/poppins_semibold"
+             android:textColor="@android:color/white"
+             android:layout_marginTop="64dp"
+             app:layout_constraintTop_toBottomOf="@id/tag_line"
+             android:id="@+id/login_hint"
+             android:text="Login\nInto Your Account." />
+
+        <EditText
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:textColor="@android:color/white"
+             android:layout_marginTop="10dp"
+             app:layout_constraintTop_toBottomOf="@id/login_hint"
+             android:background="@drawable/edit_text_background"
+             android:minHeight="48dp"
+             android:includeFontPadding="false"
+             app:layout_constraintStart_toStartOf="parent"
+             android:fontFamily="@font/poppins_medium"
+             android:backgroundTint="@null"
+             app:layout_constraintEnd_toEndOf="parent"
+             android:paddingHorizontal="12dp"
+             android:inputType="textEmailAddress"
+             android:id="@+id/email_input" />
+
+        <EditText
+             android:layout_height="50dp"
+             android:layout_width="match_parent"
+             android:textColor="@android:color/white"
+             android:layout_marginTop="16dp"
+             app:layout_constraintTop_toBottomOf="@id/email_input"
+             android:background="@drawable/edit_text_background"
+             android:minHeight="48dp"
+             android:includeFontPadding="false"
+             app:layout_constraintStart_toStartOf="parent"
+             android:fontFamily="@font/poppins_medium"
+             android:backgroundTint="@null"
+             app:layout_constraintEnd_toEndOf="parent"
+             android:paddingHorizontal="12dp"
+             android:inputType="textPassword"
+             android:id="@+id/password_input" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
